@@ -1,0 +1,4 @@
+https://www.paokfc.gr/a-omada/a-omada/a-team-roster/
+
+All data was gathered through web scraping using Beautiful Soup.
+

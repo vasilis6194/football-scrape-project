@@ -17,12 +17,15 @@ Data was web-scraped using Python’s Beautiful Soup library. The dataset includ
 from bs4 import BeautifulSoup
 import requests
 
-url = "https://www.paokfc.gr"
-response = requests.get(url)
-soup = BeautifulSoup(response.content, 'html.parser')
-
-# Example: Extracting player stats
-players = soup.find_all('div', class_='player-stat')
+df = pd.DataFrame()
+for url in (squad_urls):
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    
+    #name of each player
+    name = soup.find('div', {'class': "row the-content single-profile-content"}).\
+        find('section', {'class': "col-sm-12 single-profile-header"}).\
+        find('h1').text
 ```
 
 # 📊 3. Analysis in Jupyter Notebook

@@ -46,6 +46,7 @@ The cleaned data was exported using `df.to_excel()` and imported into Power BI f
 ---
 
 # 📈 5. Power BI Analysis
+![Power BI Analysis](./4.PowerBI%20Analysis/PowerBI_analysis_image.png)
 
 
 ### **Key visualizations**:

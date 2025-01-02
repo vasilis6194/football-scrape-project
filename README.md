@@ -1,6 +1,6 @@
 # 🏆 PAOK FC Player Performance Analysis
 
-![Football Header](https://via.placeholder.com/1200x400?text=PAOK+FC+Player+Performance)
+![Football Header](https://www.scisports.com/wp-content/uploads/2018/11/SciSports-Visual-Insight-screen-v4-1920-1280x720.jpg)
 
 ## 📌 **1. Introduction**
 This project analyzes PAOK FC player performance by collecting, processing, and visualizing data from the official PAOK FC website. The analysis was conducted in two phases:
@@ -23,6 +23,7 @@ soup = BeautifulSoup(response.content, 'html.parser')
 
 # Example: Extracting player stats
 players = soup.find_all('div', class_='player-stat')
+```
 
 # 📊 3. Analysis in Jupyter Notebook
 

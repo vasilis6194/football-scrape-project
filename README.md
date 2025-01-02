@@ -47,6 +47,7 @@ The cleaned data was exported using `df.to_excel()` and imported into Power BI f
 
 # 📈 5. Power BI Analysis
 
+
 ### **Key visualizations**:
 1. **Top 5 Scorers**: Bar chart ranking players by total goals.
 2. **Top Assist Players**: Bar chart showing players with the highest assists.

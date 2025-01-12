@@ -49,7 +49,7 @@ The cleaned data was exported using `df.to_excel()` and imported into Power BI f
 ---
 
 # 📈 5. Power BI Analysis
-![Power BI Analysis](https://github.com/vasilis6194/football-scrape-project/blob/main/4.PowerBI%20Analysis/PowerBI_analysis_image2.png)(https://app.powerbi.com/view?r=eyJrIjoiOTg4ZDU1NWEtNjJlMC00NDAwLWE0MTktZmQwZDU5MTQ2OGVhIiwidCI6IjI1Y2UwMjYxLWJiZDYtNDljZC1hMWUyLTU0MjYwODg2ZDE1OSJ9)
+[![Power BI Analysis](https://github.com/vasilis6194/football-scrape-project/blob/main/4.PowerBI%20Analysis/PowerBI_analysis_image2.png)](https://app.powerbi.com/view?r=eyJrIjoiOTg4ZDU1NWEtNjJlMC00NDAwLWE0MTktZmQwZDU5MTQ2OGVhIiwidCI6IjI1Y2UwMjYxLWJiZDYtNDljZC1hMWUyLTU0MjYwODg2ZDE1OSJ9)
 
 
 ### **Key visualizations**:
